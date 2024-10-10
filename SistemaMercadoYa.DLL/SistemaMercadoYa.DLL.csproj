@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SistemaMercadoYa.DAL\SistemaMercadoYa.DAL.csproj" />
+    <ProjectReference Include="..\SistemaMercadoYa.DTO\SistemaMercadoYa.DTO.csproj" />
+    <ProjectReference Include="..\SistemaMercadoYa.MODELS\SistemaMercadoYa.MODELS.csproj" />
+    <ProjectReference Include="..\SistemaMercadoYa.UTILITY\SistemaMercadoYa.UTILITY.csproj" />
+  </ItemGroup>
+
+</Project>
